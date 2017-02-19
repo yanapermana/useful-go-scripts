@@ -23,7 +23,11 @@ func main() {
 }
 
 /*
+
+refs: https://golang.org/pkg/sort/#Slice
+
 $ go run slice-0.go                                            ⏎ ✭
 By name: [{Alice 55} {Bob 75} {Gopher 7} {Vera 24}]
 By age: [{Gopher 7} {Vera 24} {Alice 55} {Bob 75}]
+
 */
