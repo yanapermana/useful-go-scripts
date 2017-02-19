@@ -1,0 +1,19 @@
+
+wget -c https://storage.googleapis.com/golang/go1.8.linux-amd64.tar.gz
+
+tar xzvf go1.8.linux-amd64.tar.gz
+
+# if there is an older version, immediately move it to another folder
+#mv /usr/local/go /usr/local/go-{version}
+
+mv go /usr/local
+
+export GOROOT=/usr/local/go
+
+export GOPATH=/home/x7079/Private/progress/go-workspaces
+
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+
+go version
+
+go env
